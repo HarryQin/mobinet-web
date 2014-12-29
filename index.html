@@ -18,7 +18,7 @@
     <link href="css/mobinet.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 
@@ -41,7 +41,7 @@
                     <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">
-                    <i class="fa fa-play-circle"></i>  <span class="light">Main</span>
+                    <i class="fa fa-play-circle"></i>  <span class="light">Start</span> Bootstrap
                 </a>
             </div>
 
@@ -90,6 +90,7 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>About MobiNet</h2>
+                <br>
                 <p>MobiNet specializes in building innovative Mobile Apps for iPhone, iPad, Android.</p>
                 <p>We also design and develop Web sites.</p>
                 <p>Our location in Charlottetown, PE, Canada<br><br>Prince Edward Island as Top Island in Continental US & Canada.</p>
@@ -97,14 +98,13 @@
         </div>
     </section>
 
-    <!-- ourwork Section -->
+    <!-- Download Section -->
     <section id="ourwork" class="content-section text-center">
         <div class="ourwork-section">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <h2>our work</h2>
-                    <p>our work</p>
-                    <p>our work</p>
+                    <h2>ourwork</h2>
+                    <p>ourwork</p>
                 </div>
             </div>
         </div>
@@ -114,7 +114,6 @@
     <section id="contact" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact MobiNet</h2>
                 <p>If you are interested in any of our mobile products or services, please do not hesitate to send us an email.</p>
                 <p><a href="mailto:harry@mobinet.mobi">harry@mobinet.mobi</a>
                 </p>
@@ -129,10 +128,14 @@
             </div>
         </div>
     </section>
+
+    <!-- Map Section -->
+    <div id="map"></div>
+
     <!-- Footer -->
     <footer>
         <div class="container text-center">
-            <p>© 2014 MobiNet Ltd.</p>
+           <p>© 2014 MobiNet Ltd.</p>
         </div>
     </footer>
 
@@ -145,9 +148,12 @@
     <!-- Plugin JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
 
-    <!-- Custom Theme JavaScript 
-    <script src="js/mobinet.js"></script>
-    -->
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/grayscale.js"></script>
+
 </body>
 
 </html>
